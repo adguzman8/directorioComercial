@@ -1,0 +1,26 @@
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div-logo {
+    height: 100px;
+    width: 100px;
+}
+.busqueda{
+    border-radius: 10px;
+    height: 30px;
+    width: 50%;
+    border: 1px solid rgb(203, 203, 203);
+}
+.nav{
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+.nav span{
+    border: 1px solid #000;
+    
+}
