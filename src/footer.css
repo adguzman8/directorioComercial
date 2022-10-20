@@ -1,0 +1,15 @@
+.footer-container{
+    border-top: 0.1px solid rgb(249, 249, 249);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-container div{
+    padding: 20px;
+}
+
+.footer-container div a{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}

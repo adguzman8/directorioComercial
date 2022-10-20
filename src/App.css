@@ -7,6 +7,36 @@
   pointer-events: none;
 }
 
+.experiencias{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.experiencias div {
+  max-width: 500px;
+  padding: 0px 20px 0px 20px;
+}
+.experiencias-texto p{
+  padding: 10px 0px 10px 0px;
+}
+.experiencias-texto a{
+  padding: 20px;
+  text-decoration: none;
+  color: var(--color-blanco);
+  background-color: orange;
+  border-radius: 20px;
+}
+.experiencia-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
