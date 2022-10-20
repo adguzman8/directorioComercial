@@ -2,10 +2,12 @@ import './App.css';
 import React from 'react';
 import Experiencias from './experiencias';
 import {Slide} from  './slide';
+import {Banner} from './banner';
 
 function App() {
   return (
     <React.Fragment>
+      <Banner/>
       <div class="experiencias">
         <div className='experiencias-texto'>
           <h2>Experiencias</h2>

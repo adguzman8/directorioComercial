@@ -6,11 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-header{
-background-color: #F27405;
+:root{
+  --color-blanco:#fff;
+  --color-gris-claro:#B8BABF;
+  --color-orange:#F5830C;
+  --font-montserrat: 'Montserrat', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}

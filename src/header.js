@@ -1,23 +1,20 @@
 import React from 'react';
-import './header.css'
+import './header.css';
+import logo from'../src/img/parayaa_logo.png';
 
 function Header (){
 
     return(
         <div className='header-container'>
-            <div className='div-logo'>
-                <img src="./logo.svg" alt="logo"></img>
-            </div>
-            <div>
-                <input className='busqueda' type='text' id='busqueda' name='busqueda-principal' placeholder=' ¿Qué hay para hoy?'></input>
-            </div>
             <div className='menu-list'>
                 <ul>
                     <a  href='index.html'><li>Restaurantes</li></a>
-                    <a  href='index.html'><li>Mercados</li></a>
-                    <a  href='index.html'><li>Licores</li></a>
-                    <a  href='index.html'><li>Contactnos</li></a>
+                    <a  href='index.html'><li>Tiendas</li></a>
+                    <a  href='index.html'><li>Servicios</li></a>
                 </ul>
+            </div>
+            <div className='div-logo'>
+                <img src={logo} alt="logo"></img>
             </div>
             <div className='nav'>
                 <span className='nav-top'></span>
