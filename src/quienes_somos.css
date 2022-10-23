@@ -1,0 +1,18 @@
+.quienes-somos-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+h1{
+    color: var(--color-orange);
+    font-family: var(--font-montserrat);
+    padding-top: 20px;
+}
+p{
+    font-family: var(--font-montserrat);
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+}

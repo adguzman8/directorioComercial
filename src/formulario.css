@@ -1,0 +1,130 @@
+.formulario-de-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.formulario-de-contacto p{
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+}
+.formulario-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--font-montserrat);
+}
+.label-nombre{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.label-nombre label{
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    color: var(--color-negro);
+    padding-bottom: 20px;
+}
+.label-nombre input{
+    border-radius: 10px;
+    border-color: var(--color-orange);
+    font-family: var(--font-montserrat);
+    width: 50%;
+    height: 30px;
+}
+.label-correo{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.label-correo label{
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    color: var(--color-negro);
+    padding-bottom: 20px;
+}
+.label-correo input{
+    border-radius: 10px;
+    border-color: var(--color-orange);
+    font-family: var(--font-montserrat);
+    width: 50%;
+    height: 30px;
+}
+.label-telefono{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.label-telefono label{
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    color: var(--color-negro);
+    padding-bottom: 20px;
+    
+}
+.label-telefono input{
+    border-radius: 10px;
+    border-color: var(--color-orange);
+    font-family: var(--font-montserrat);
+    width:50%;
+    height: 30px;
+}
+.label-Solicitud{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.label-Solicitud label{
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    color: var(--color-negro);
+    padding-bottom: 20px;
+}
+.label-Solicitud select{
+    border-radius: 10px;
+    border-color: var(--color-orange);
+    font-family: var(--font-montserrat);
+    width: 50%;
+    height: 30px;
+}
+.label-mensaje{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+.label-mensaje label{
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    color: var(--color-negro);
+    padding-bottom: 20px;
+}
+.label-mensaje input{
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    border-color: var(--color-orange);
+}
+.enviar{
+    background-color: var(--color-orange);
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    font-size: 20px;
+    width:200px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 10px;
+    height: 50px;
+    color: var(--color-blanco);
+    display: flex;
+    justify-content: center;
+}
