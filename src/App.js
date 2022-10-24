@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import {Slide} from  './slide';
 import {Home} from './home';
 import logo from'../src/img/parayaa_logo.png';
 import {useState} from 'react';
 import {Quienes_somos} from './quienes_somos';
 import { Contactanos } from './contactanos';
+import {Restaurantes} from './restaurantes';
 import {
   BrowserRouter,
   Routes,
@@ -29,13 +29,13 @@ function App() {
       <div className='header-container'>
             <div className='menu-list'>
                 <ul>
-                    <Link to='/'><li>Restaurantes</li></Link>
+                    <Link to='/restaurantes'><li>Restaurantes</li></Link>
                     <Link to='/tiendas'><li>Tiendas</li></Link>
                     <Link to='/servicios'><li>Servicios</li></Link>
                 </ul>
             </div>
             <div className='div-logo'>
-                <img src={logo} alt="logo"></img>
+                <Link to='/'><img src={logo} alt="logo"></img></Link>
             </div>
             <div className='nav' onClick={handleClick}>
                 <span className='nav-top'></span>
@@ -71,8 +71,9 @@ function App() {
      
     <Routes>
       <Route path="/" element={<Home />}></Route>
-      <Route path="/quienes-somos" element={<Quienes_somos />}></Route>
+      <Route path="/quienes-somos" element={<Quienes_somos/>}></Route>
       <Route path="/contactenos" element={<Contactanos />}></Route>
+      <Route path='/restaurantes' element={<Restaurantes/>}></Route>    
     </Routes>
     </BrowserRouter>
     </React.Fragment>

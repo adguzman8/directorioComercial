@@ -4,6 +4,9 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    background-color: var(--color-orange);
+    color: var(--color-blanco);
+    font-family: var(--font-montserrat);
 }
 .footer-container div{
     padding: 20px;
