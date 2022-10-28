@@ -1,5 +1,6 @@
-import React from 'react';
-import './restauranteslist.css'
+import React, { useState } from 'react';
+import './restauranteslist.css';
+
 
 function RestaurantesList() {
     const theData = [
@@ -33,13 +34,18 @@ function RestaurantesList() {
             puntuacion: '★★★★'
         }
     ];
+
+    const [cliente,setCliente]=useState ([]);
+
   return theData.map((x)=>(    
-      <div className='restaurante-list-container'>
+      <div key={x.id} className='restaurante-list-container' onClick={()=>setCliente()}>
       <img src={x.imagen} alt={x.name}></img>
       <h3>{x.cliente}</h3>
       <p>{x.descripcion}</p>
       <span>{x.puntuacion}</span>
-      </div>    
+      <p>{cliente}</p>
+      </div>  
+
 ));
 }
 export {RestaurantesList};

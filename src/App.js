@@ -6,6 +6,7 @@ import {useState} from 'react';
 import {Quienes_somos} from './quienes_somos';
 import { Contactanos } from './contactanos';
 import {Restaurantes} from './restaurantes';
+import {Producto} from './producto';
 import {
   BrowserRouter,
   Routes,
@@ -42,7 +43,7 @@ function App() {
                 <span className='nav-midle'></span>
                 <span className='nav-buttom'></span>
             </div>
-            <div className={isActive ? 'menu-lateral-active':'menu-lateral'}>
+            <div className={isActive ? 'menu-lateral-active ':'menu-lateral '}>
               <div className='first-section'>
                 <ul>
                     <Link to='/' ><li><span className='inicio-link'>Inicio</span></li></Link>
@@ -73,7 +74,8 @@ function App() {
       <Route path="/" element={<Home />}></Route>
       <Route path="/quienes-somos" element={<Quienes_somos/>}></Route>
       <Route path="/contactenos" element={<Contactanos />}></Route>
-      <Route path='/restaurantes' element={<Restaurantes/>}></Route>    
+      <Route path='/restaurantes' element={<Restaurantes/>}></Route>
+      <Route path='/producto' element={<Producto/>}></Route>    
     </Routes>
     </BrowserRouter>
     </React.Fragment>

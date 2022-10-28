@@ -127,16 +127,18 @@ position: absolute;
   font-weight: 700;
   
 }
+
 .arrow {
   position: relative;
-  left: -60px;
-  top:-10%;
+  left: -50px;
+  top:-30%;
   font-family: var(--font-montserrat);
   font-weight: 700;
   font-size: 200%;
   color: var(--color-gris-claro);
   cursor: pointer;
   padding: 10px;
+  border: 1px solid var(--color-gris-claro);
   width: 40px;
   height: 40px;
   border-radius: 100px;
@@ -151,7 +153,7 @@ box-shadow: -7px 6px 28px -32px rgba(0,0,0,0.75);
     position: absolute;
       top: -15px; 
       left: 42%;
-      height: 100px;
+      height: 80%;
       width: 100px;
     }
   .menu-list{
@@ -159,8 +161,12 @@ box-shadow: -7px 6px 28px -32px rgba(0,0,0,0.75);
   }
   .menu-lateral-active{
     position: fixed;
-    width: 50%;
+    width: 80%;
 
   }
-
+  .arrow {
+    position: relative;
+    left: -50px;
+    top:-40%;
+  }
 }
