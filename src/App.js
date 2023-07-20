@@ -12,7 +12,6 @@ function App() {
   return (
     <React.Fragment> 
       <HashRouter>
-          <img src={logo} alt='logo'></img>
         <Routes>
         <Route exact path="/" element={<Home/>}></Route>
         </Routes>

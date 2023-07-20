@@ -1,10 +1,12 @@
 :root{
-  --color-color1:#e54e;
-}
-*{
-  margin: 0px;
+  --color-color1:#F5830C;
+  --color-color2:#F7F7F7;
+  --color-color2-1:#BDBEBF;
+  --color-color3:#00B7FF;
+  --color-color4:#ffff;
+
 }
 body{
-  margin: 0px;
-  border: 0px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--color-color2);
 }
