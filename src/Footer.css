@@ -1,0 +1,9 @@
+@media (max-width:390px){
+    .footer-container{
+        border-top:20px;
+        margin-top: 20px;
+    }
+    .footer-container-section{
+        background-color: var(--color-color4);
+    }
+}

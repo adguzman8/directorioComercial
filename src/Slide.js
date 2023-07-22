@@ -1,7 +1,7 @@
 import React from 'react'
 import './Slide.css'
 
-import slide1 from './img/pauta2.jpg';
+import slide1 from './img/pauta1.jpg';
  function Slide() {
   return (
     <React.Fragment>

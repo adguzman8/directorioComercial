@@ -26,7 +26,6 @@ function Home() {
     const pautas=[{id:1,img:pauta1,alt:'pauta'},{id:2,img:pauta2,alt:'pauta_2'}]
     return (
     <React.Fragment>
-        <h1>home</h1>
         <Slide></Slide>
         <Tiendas></Tiendas>
         <div className='promo-container-home'>

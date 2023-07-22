@@ -1,0 +1,11 @@
+@media (max-width:390px){
+    .banner-cliente-container{
+        display: flex;
+        margin: 20px 0px;
+    }
+    .banner-cliente-container img{
+        width: 95%;
+        margin: auto;
+        border-radius: 10px;
+    }
+}
