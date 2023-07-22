@@ -1,0 +1,23 @@
+@media (max-width: 360px){
+    .container-links-servicios{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: var(--color-color4);
+        justify-content: space-around ;
+        margin-bottom: 10px;
+    }
+    .container-links-servicios a{
+        padding: 3px;
+        cursor: pointer;
+        transition: all .5s;
+    }
+    .container-links-servicios a:hover{
+        scale: 1.1;
+    }
+    .container-links-servicios img{
+        max-width: 65px;
+    }
+}

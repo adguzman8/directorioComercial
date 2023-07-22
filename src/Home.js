@@ -7,6 +7,7 @@ import helado from './img/Helado.png'
 
 import pauta1 from './img/pauta1.jpg';
 import pauta2 from './img/pauta2.jpg';
+import { Tiendas } from './Tiendas';
 
 function Home() {
     const promos=[
@@ -27,6 +28,7 @@ function Home() {
     <React.Fragment>
         <h1>home</h1>
         <Slide></Slide>
+        <Tiendas></Tiendas>
         <div className='promo-container-home'>
         {(promos1.map(item=>
         <a href={item.link}>
