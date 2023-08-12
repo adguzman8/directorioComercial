@@ -9,9 +9,10 @@ function NavLink() {
     const [open, setOpen] = useState(true);
 
     function openc() {
-
+        console.log(!open);
         if (window.innerWidth < 410) {
             setOpen(!open);
+            
         }
     }
 

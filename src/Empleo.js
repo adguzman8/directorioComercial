@@ -9,8 +9,7 @@ function Empleo() {
   console.log(Empleo)
   return (
     <React.Fragment>
-      <div>Empleo</div>
-      <div className='oferta-info'>
+        <div className='oferta-info'>
         <h2>La oferta que estas buscando</h2>
         <div className='oferta-text-info'>
           <div><p> Este espacio esta diseñado para que encuentres
@@ -19,7 +18,7 @@ function Empleo() {
         </div>
       </div>
       <div className='oferta-empleo-info'>
-        <h1>Ofertados</h1>
+        <h1>Ofertas laborales</h1>
         {Empleo.map(item => (
           <div className='oferta-item-container'>
             <div className='oferta-item'>

@@ -1,3 +1,113 @@
+
+.Nav-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: var(--color-color4);
+    padding: 0px 15px;
+}
+.Nav-container img{
+    width: 80px;
+}
+
+.item-link-list-open {
+    position: fixed;
+    z-index: 1;
+    transform: translate(0px, 0px);
+    right: 0px;
+    top: 80px;
+    height: 100%;
+    width: 30%;
+    background-color: var(--color-color4);
+    display: flex;
+    flex-direction: column;
+    transition: all 1s;
+}
+
+.item-link-list {
+    position: fixed;
+    z-index: 1;
+    transform: translate(400px, 0px);
+    right: 0px;
+    top: 80px;
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-color4);
+    display: flex;
+    flex-direction: column;
+    transition: all 1s;
+}
+
+.item-list {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+.link-color1 {
+    text-decoration: none;
+    color: var(--color-color2-1);
+}
+
+.link-color2 {
+    text-decoration: none;
+    color: var(--color-color1);
+}
+
+.link-color3 {
+    text-decoration: none;
+    color: var(--color-color3);
+}
+
+.item-list li {
+    padding: 10px 10px 10px 0px;
+}
+
+.hamburguer-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburguer-nav span {
+    position: relative;
+    border-radius: 3px;
+    height: 5px;
+    width: 45px;
+    transition: all 1s;
+    background-color: var(--color-color1);
+}
+
+.span1 {
+    transform: rotate(45deg);
+    top: 0px;
+}
+
+.span1r {
+    transform: rotate(0);
+    top: -8px;
+}
+
+.span2r {
+    opacity: 1;
+}
+
+.span2 {
+    opacity: 0;
+    transition: all .5s;
+}
+
+.span3r {
+    top: 8px;
+    transform: rotate(0);
+}
+
+.span3 {
+    top: -9px;
+    transform: rotate(-45deg);
+}
 @media(max-width:395px) {
 
     .Nav-container {
